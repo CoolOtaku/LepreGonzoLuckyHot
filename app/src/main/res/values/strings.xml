@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LepreGonzo LuckyHot</string>
+    <string name="credit">credit</string>
+    <string name="bet">bet</string>
+    <string name="win">win</string>
+
+    <string name="privacy_policy_url">https://doc-hosting.flycricket.io/lepregonzo-luckyhot-privacy-policy/bffd79e6-1380-42d8-a31f-3482702a37a3/privacy</string>
+</resources>

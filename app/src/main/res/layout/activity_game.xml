@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".GameActivity">
+
+    <View
+        android:id="@+id/navBack"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/nav_bottom_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/slotsView"
+        android:layout_width="400dp"
+        android:layout_height="280dp"
+        android:background="@drawable/slot_back"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+            <ImageView
+                android:layout_width="72dp"
+                android:layout_height="49dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/controlsView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-40dp"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/navBack">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnExit"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/icon_exit"
+                android:importantForAccessibility="no"
+                android:onClick="onExit" />
+
+            <ImageButton
+                android:id="@+id/btnMusic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/icon_music_on"
+                android:importantForAccessibility="no"
+                android:onClick="onMusic" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnPrivacyPolicy"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/icon_information"
+            android:importantForAccessibility="no"
+            android:onClick="onPrivacyPolicy" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/credit"
+                    android:textAllCaps="true"
+                    android:textColor="@color/orange" />
+
+                <TextView
+                    android:id="@+id/txtCredit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="$00,00"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bet"
+                    android:textAllCaps="true"
+                    android:textColor="@color/orange" />
+
+                <TextView
+                    android:id="@+id/txtBet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="$00,00"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/win"
+                android:textAllCaps="true"
+                android:textColor="@color/orange"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtWin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$00,00"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnMinus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/icon_minus"
+            android:importantForAccessibility="no"
+            android:onClick="onMinus" />
+
+        <ImageButton
+            android:id="@+id/btnSpin"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/icon_spin"
+            android:importantForAccessibility="no"
+            android:onClick="onSpin" />
+
+        <ImageButton
+            android:id="@+id/btnPlus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/icon_plus"
+            android:importantForAccessibility="no"
+            android:onClick="onPlus" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
