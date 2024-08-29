@@ -46,5 +46,5 @@ Casino-style games such as: **3 Lucky Leprechauns** and **Gonzo Casino**.
 #
 ## License
 ```
-© 2023, CoolOtaku (ericspz531@gmail.com)
+© 2024, CoolOtaku (ericspz531@gmail.com)
 ```
